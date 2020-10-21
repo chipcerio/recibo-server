@@ -1,0 +1,20 @@
+{
+  "name": "recibo-server",
+  "version": "1.0.0",
+  "description": "This is the backend configuration for recibo application.",
+  "main": "index.js",
+  "scripts": {
+    "amplify-push-dev": "amplify status && amplify env checkout dev && amplify push",
+    "amplify-push-prod": "amplify status && amplify env checkout prod && amplify push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chipcerio/recibo-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chipcerio/recibo-server/issues"
+  },
+  "homepage": "https://github.com/chipcerio/recibo-server#readme"
+}

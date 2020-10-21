@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/people",
+            "lambdaFunction": "amplifyReciboTest",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/people"
+        }
+    ],
+    "resourceName": "amplifyReciboTestApi",
+    "apiName": "amplifyReciboTestApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplifyReciboTest"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-reciboserver-dev-140221-authRole",
+        "unAuthRoleName": "amplify-reciboserver-dev-140221-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplifyReciboTest",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
